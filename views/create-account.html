@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/global.css" type="text/css">
+  <link rel="stylesheet" href="styles/views/login.css" type="text/css">
+  <title>Criar-Conta</title>
+  <style>
+    .title {
+      color: #f0f0f0;
+      background-color: #372775;
+      font-size: 12px;
+      font-weight: bold;
+      margin: 0; /* Remover margem padrão do título */
+      padding: 20px; /* Adiciona um espaçamento interno */
+      max-width: 400px; /* Largura máxima do "caixote" */
+      width: 100%; /* Garante que a largura é 100% */
+      box-sizing: border-box; /* Garante que a borda não aumenta a largura */
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      border: 1px solid white; /* Adiciona a borda branca */
+      padding: 20px; /* Adiciona um espaçamento interno */
+      max-width: 300px; /* Largura máxima do "caixote" */
+      width: 100%; /* Garante que a largura é 100% */
+      box-sizing: border-box; /* Garante que a borda não aumenta a largura */
+    }
+    .cor{
+      color: #f0f0f0;
+    }
+    .form-invalido{
+      
+      color: #FD7979;
+      font-size: 8px;
+      float: left;
+      margin-top: 2px;
+    }
+    .form-esqueci{
+      
+      color:  #3F92C5;
+      font-size: 8px;
+      float: right;
+      margin-top: 2px;
+      
+    }
+    .form-criar{
+      color:  #3F92C5;
+      font-size: 8px;      
+    }
+
+    .login{
+      font-family: Averia Libre;
+      font-size: 12px;
+      font-weight: 400;
+      text-align: left;
+      color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .btcolor{
+      width: 80px;
+      height: 20px;
+      border-radius: 10px;
+      border: 1px;
+      background-color: #37BD6D;
+      color: #f0f0f0;
+     }
+  
+    .boton{
+      display: flex;
+      justify-content:space-between;    
+      margin-top: 30%;
+      float: right;
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <div class="title">
+    <header>
+      <h2>Satisfying.you</h2>
+    </header>
+    <div class="container">
+    <main>
+      <form>
+        <p class="login">Criar uma Conta no Satisfying.you</p>
+
+        <div class="form-content">
+          <label>
+            <span class="cor">E-mail</span><br>
+            <input type="email" />
+            <span class="field-error"></span>
+          </label>
+
+          <label class="mt-4"><br>
+            <span class="cor">Senha</span><br>
+            <input type="password" />
+            <span class="field-error"></span>
+          </label>
+          <label class="mt-4"><br>
+            <span class="cor">Repetir Senha</span><br>
+            <input type="password" />
+            <span class="field-error"></span>
+          </label>
+        </div>
+          <a href="/account/create" class="form-invalido">Senhas não conferem</a>
+
+        <div class="boton">
+            <button type="submit" class="btcolor">Criar</button>
+        </div>
+      </form>
+    </main>
+    </div>
+  </div>
+
+</body>
+
+</html>

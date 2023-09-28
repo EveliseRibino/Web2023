@@ -1,0 +1,32 @@
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+label,
+label span,
+label input {
+  display: block;
+  width: 100%;
+}
+
+input {
+  margin-top: 4px;
+  border: none;
+  height: 1.2rem;
+  box-sizing: border-box;
+  padding: 16px 12px;
+}
+
+.field-error {
+  color: red;
+}
+
+.mt-4 {
+  margin-top: 8px;
+}

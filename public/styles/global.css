@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 1em;
+  background-color: #372775;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  padding: 24px;
+  font-size: 1.4rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container main {
+  height: 100%;
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

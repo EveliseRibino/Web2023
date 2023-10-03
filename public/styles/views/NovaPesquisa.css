@@ -1,0 +1,110 @@
+* {
+    font-family: 'Averia Libre', cursive;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    background-color: #372775;
+    color: white;
+}
+
+#logo {
+    font-size: 70px;
+}
+
+.sair {
+    color:#3F92C5;
+    font-size: 30px;
+}
+
+.content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 700px;
+    height: 730px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    font-size: 27px;
+    border: solid gray;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    height: 50px;
+    font-size: 27px;
+}
+
+.tit {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file {
+    display: flex;
+    cursor: pointer;
+    background-color: #A4A4A4;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 31%;
+}
+
+.arq {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nome-arq {
+    width: 68%;
+    height: 50px;
+    background-color: #DBDBDB;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+    padding-top: 10px;
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.but {
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #37BD6D;
+    color: white;
+    font-size: 27px;
+}

@@ -2,11 +2,13 @@
     font-family: 'Averia Libre', cursive;
 }
 
-header {
+.head {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
+    color: white;
 }
 
 body {
@@ -107,6 +109,11 @@ input[type="file"] {
     background-color: #37BD6D;
     color: white;
     font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white
 }
 
 .trash {
@@ -122,4 +129,68 @@ input[type="file"] {
 
 #trash-img {
     font-size: 30px;
+}
+
+.popup {
+    background-color:rgba(0,0,0,0.8);
+    opacity:0;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    top:0;
+    pointer-events:none;
+    &:target {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity:1;
+        pointer-events:auto;
+        z-index:99999;
+    }
+}
+
+.chose {
+    width: 565px;
+    height: 250px;
+    padding-bottom: 28px;
+    border: solid #2B1F5C;
+    background-color: #2B1F5C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 37px;
+}
+
+.op {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.sim {
+    width: 250px;
+    height: 70px;
+    background-color: #FF8383;
+    margin-right: 20px;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.canc {
+    width: 250px;
+    height: 70px;
+    background-color: #3F92C5;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
 }

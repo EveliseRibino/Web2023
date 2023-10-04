@@ -1,0 +1,56 @@
+* {
+    font-family: 'Averia Libre', cursive;
+}
+
+body {
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    background-color: #372775;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 30px;
+    align-items: center;
+}
+
+#logo {
+    font-size: 70px;
+}
+
+.sair {
+    color:#3F92C5;
+}
+
+.opcoes {
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bloco {
+    background-color: #312464;
+    border-radius: 17px;
+    width: 460px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+}
+
+#img {
+    font-size: 200px;
+}

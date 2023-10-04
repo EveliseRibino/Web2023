@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles\views\ModificarPesquisa.css" type="text/css">
+  <link rel="stylesheet" href="../public/styles/views/ModificarPesquisa.css" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link href="https://fonts.googleapis.com/css2?family=Averia+Libre&display=swap" rel="stylesheet">
@@ -13,15 +13,28 @@
 
 <body>
 
-  <header>
-    <header>
+  <header class="head">
+
+    <a href="Home.html" class="head">
       <span class="material-symbols-outlined" id="logo">sentiment_satisfied</span>
       <span id="logo">Satisfying.you</span>
-    </header>
-    <header>
-      <a href="login.html" class="trash"><span class="material-symbols-outlined" id="trash-img">delete</span>Apagar</a>
+    </a>
+
+    <div class="head">
+      <a href="#popup" class="trash"><span class="material-symbols-outlined" id="trash-img">delete</span>Apagar</a>
+      <div id="popup" class="popup">
+        <div class="chose">
+          <p>Tem certeza de apagar essa pesquisa?</p>
+          <div class="op">
+            <a href="Home.html" class="sim">SIM</a>
+            <a href="#close" class="canc">CANCELAR</a>
+          </div>
+        </div>
+      </div>
+
       <a href="login.html" class="sair">Sair</a>
-    </header>
+    </div>
+
   </header>
 
   <div class="content">
@@ -45,11 +58,11 @@
         <label id="imagem" class="custom-file"><input type="file" id="imagem">Escolher arquivo</label>
       </div>
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh1Idv8osdL7QRgEBhCce_uSU7lkvVB97Hx1zPb922if4MPQrT" class="image">
-      
+
       <div class="submit">
-        <input type="submit" value="Salvar" class="but">
+        <a href="Home.html" class="but">Salvar</a>
       </div>
-      
+
     </form>
 
   </div>

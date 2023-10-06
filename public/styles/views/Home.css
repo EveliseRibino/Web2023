@@ -40,13 +40,14 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    text-decoration: none;
     color: white;
 }
 
 .pesquisa {
     margin-top: 55px;
-    padding-left: 15px;
-    width: 100%;
+    padding-left: 1%;
+    width: 99%;
     height: 50px;
     font-size: 30px;
     font-family:'FontAwesome', 'Averia Libre', cursive;
@@ -65,8 +66,8 @@ article {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 65px;
     padding: 10px;
+    margin-right: 65px;
 }
 
 main {
@@ -74,6 +75,11 @@ main {
     display: flex;
     flex-direction: row;
     overflow: scroll;
+    overflow-x: hidden;
+}
+
+main:hover{
+    overflow-x: auto;
 }
 
 main::-webkit-scrollbar {

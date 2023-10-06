@@ -30,7 +30,7 @@ body {
     font-size: 30px;
 }
 
-.content {
+main {
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -54,6 +54,7 @@ form {
 .field {
     height: 50px;
     font-size: 27px;
+    padding-left: 15px;
 }
 
 .tit {
@@ -83,10 +84,11 @@ input[type="file"] {
 }
 
 .nome-arq {
-    width: 68%;
+    width: 66%;
     height: 50px;
+    padding-left: 2%;
     background-color: #DBDBDB;
-    justify-content: center;
+    display: flex;
     align-items: center;
 }
 
@@ -113,7 +115,6 @@ input[type="file"] {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: white
 }
 
 .trash {
@@ -140,13 +141,12 @@ input[type="file"] {
     right:0;
     top:0;
     pointer-events:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &:target {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         opacity:1;
         pointer-events:auto;
-        z-index:99999;
     }
 }
 

@@ -28,14 +28,14 @@ header {
     color:#3F92C5;
 }
 
-.agrad {
+main {
     margin-top: 230px;
     margin-bottom: 240px;
     font-size: 75px;
     text-align: center;
 }
 
-.red {
+footer {
     width: 100%;
     font-size: 25px;
     text-align: right;
